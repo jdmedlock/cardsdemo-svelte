@@ -16,3 +16,11 @@
     <CardContainer team={ team } />
   </header>
 </div>
+
+<style>
+  h1 {
+    font-weight: bold;
+    font-style: italic;
+    color: dodgerblue;
+  }
+</style>
