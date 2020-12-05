@@ -1,4 +1,7 @@
 <script>
+  import { cardSeq } from '../stores/cardSeq.js'
+
+  export let seqNo
   export let member
 
   console.log({ member })
@@ -6,7 +9,7 @@
 
 <div>
   <div class="band"></div>
-  <p class="content">{ member.firstName }, { member.lastName }</p>
+  <p class="content">{ seqNo }. { member.firstName }, { member.lastName }</p>
 </div>
 
 <style>
